@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+    background-color: #eeeff2;
+
+    border-left: 10px dotted #D0D0FF;
+
+    padding: 10px;
+
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.box:last-child {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
